@@ -21,7 +21,6 @@ export default {
          listDate: [],
          selectDate: {},
          url: 'http://localhost:3000/api',
-         // url: 'https://montapi.home.megafon.ru/api',
       }
    },
    mixins: [goHome],
