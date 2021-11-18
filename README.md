@@ -7,8 +7,11 @@ npm install
 
 ### Запуск проекта в режиме разработки
 ```
-npm run server
-npm run dev
+1. Зпустить сервер localhost:3000 
+   npm run server
+
+2. Запустить проект localhost:8080
+   npm run dev
 ```
 
 ### Сборка проекта
@@ -16,5 +19,13 @@ npm run dev
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### О проекте
+```
+Мониторинг конкурнетов.
+Разработка таблицы с данными.
+
+Стек технологий:
+Vue 
+Vuex
+Vue-router
+```

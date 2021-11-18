@@ -43,11 +43,9 @@ export default {
             .then( res => {
                this.selectDate.value = res.data[0].value
                this.listDate = res.data
-               console.log(this.listDate)
+               console.log( this.listDate )
             } )
-            .catch( err => {
-               console.log( err )
-            } )
+            .catch( err => console.log( err ) )
       },
       selectReadonly() {
          const vSelect = document.querySelector( '.v-select input' )
